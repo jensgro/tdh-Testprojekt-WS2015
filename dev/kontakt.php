@@ -4,7 +4,7 @@
   $navigation = "kontakt";
 
 	$contentleftincludes = array(
-        'leer.inc'
+        'kontakt_formular.inc'
 	);
 
   $contentrightincludes = array(
@@ -14,6 +14,5 @@
   $sideincludes = array(
 		'leer.inc'
 	);
-
 	include 'inc/templates/template-2-1.inc';
 ?>
