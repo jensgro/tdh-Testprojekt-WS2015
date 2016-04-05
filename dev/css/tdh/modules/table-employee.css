@@ -1,0 +1,26 @@
+.table-employee-wrapper{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.emptable{
+  margin-top: 25px;
+  width: 100%
+}
+
+.emptable thead{
+  border-bottom-style: solid;
+  border-top-style: solid;
+}
+.emptable th{
+  padding: 10px 0;
+}
+
+.contentrow{
+  height: 69px;
+  border-bottom-style: solid;
+}
+
+.namecol {
+  color: #AD1921;
+  font-weight: bold;
+}

@@ -6,9 +6,9 @@
 	$contentleftincludes = array(
     'leer.inc'
 	);
-  
+
 	$contentrightincludes = array(
-    'leer.inc'
+    'table-employee.inc'
 	);
 
 	$sideincludes = array(
