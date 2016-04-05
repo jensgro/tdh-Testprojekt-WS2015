@@ -37,6 +37,7 @@
 }
 
 .formular button {
+    border: 2px solid #a20000;
     font-size: 14px;
     color: white;
     background-color: #a20000;
