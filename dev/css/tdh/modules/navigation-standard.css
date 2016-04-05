@@ -1,0 +1,46 @@
+.navigation ul{
+    list-style: none;
+    position:relative;
+    margin-bottom:30px;
+}
+
+.navigation li{
+    display:inline-block;
+}
+
+.navigation li:first-child{
+    margin-left:0;
+}
+
+.navigation a{
+    color:#6F6F6F;
+    font-weight:bold;
+}
+
+.active a{
+    color:#AD1921;
+}
+
+.navigation > ul > li:nth-child(4).active{
+    padding: 0 5px;
+    border:1px solid black;
+}
+
+.navigation > ul > li:nth-child(4).active li a{
+    color:#AD1921;
+    padding:5px;
+    background-color:lightgrey;
+}
+.submenu{
+    position:absolute;
+    left:0;
+    top:30px;
+}
+.submenu a{
+    color:#19171B;
+    font-weight:bold;
+}
+
+.submenu .active a{
+    color:#AD1921;
+}
