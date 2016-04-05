@@ -1,6 +1,3 @@
-<link rel="stylesheet" href="../css/tdh/modules/accordion.css">
-<meta charset="utf-8">
-
 <ul class="accordion">
   <li class="entry opened">
     <h3>Radbörse</h3>
@@ -9,11 +6,13 @@
       <ol>
         <li>
           <h4>2009</h4>
-          <strong>Auch die 19. Radbörse war ein Riesenerfolg</strong>
+          <a href="#">Auch die 19. Radbörse war ein Riesenerfolg</a>
+          <p>Zur 19. Radbörse kamen leider keine Besucher. Glücklicherweise
+            haben trotzdem alle Besucher gespendet. <a href="#">mehr...</a></p>
         </li>
         <li>
           <h4>2008</h4>
-          <strong>1600 Euro Erlös bei der 18. Kuppenheimer Fahrradbörse</strong>
+          <a href="#">1600 Euro Erlös bei der 18. Kuppenheimer Fahrradbörse</a>
         </li>
         <li>
           <h4>2006</h4><strong></strong>
@@ -46,6 +45,3 @@
     </div>
   </li>
 </ul>
-
-<script src="../js/jquery.js"></script>
-<script src="../js/tdh.js"></script>

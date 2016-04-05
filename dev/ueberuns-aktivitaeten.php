@@ -6,9 +6,9 @@
 	$pageheadline ="Unsere Aktivitäten";
 
 	$contentleftincludes = array(
-    'leer.inc'
+    'accordion.inc'
 	);
-  
+
 	$contentrightincludes = array(
     'leer.inc'
 	);

@@ -2,7 +2,7 @@
   list-style-type: none;
   margin-left: 0px;
   padding-left: 0px;
-  font-family: sans-serif;
+  color: black;
 }
 
   .accordion ol {
@@ -10,6 +10,19 @@
     margin: 0;
     padding: 0;
   }
+
+    .accordion ol li {
+      margin: 10px 0px;
+      padding: 0;
+
+    }
+
+      .accordion ol li h4 {
+        color: black;
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 0px;
+      }
 
   .accordion .entry {
     border-top: 1px solid grey;
@@ -20,6 +33,9 @@
     .accordion .entry h3 {
       color: #AD1921;
       line-height: 1.8em;
+      font-size: 14px;
+      font-weight: bold;
+      padding-top: 5px;
     }
 
     .accordion .opened h3 {
@@ -39,7 +55,7 @@
         transition: transform .3s;
       }
 
-        .accordion .entry:hover {
+        .accordion .entry:not(.opened):hover {
           cursor: pointer;
         }
 
@@ -51,8 +67,8 @@
     display: none;
   }
 
-        .accordion .entry .details strong{
-          color: #AD1921;
+        .accordion .entry .details{
+
         }
 
   .accordion .opened {
