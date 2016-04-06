@@ -15,6 +15,7 @@
 	);
 
 	$sideincludes = array(
+    'donation-buttons.inc',
 		'contact-person-deppisch.inc',
 		'contact-person-wolf.inc'
 	);
