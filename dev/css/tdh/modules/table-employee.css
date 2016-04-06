@@ -11,9 +11,38 @@
   border-bottom-style: solid;
   border-top-style: solid;
 }
-.emptable th{
+.header{
   padding: 10px 0;
+  cursor: pointer;
+  color: #6F6F6F;
 }
+.headerSortUp, .headerSortDown{
+  color: #19171B;
+}
+
+.header:after{
+  content: "";
+  width: 0px;
+  height: 0px;
+  display: inline-block;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 7px solid #6F6F6F;
+  border-bottom: none transparent;
+  color: #6F6F6F;
+}
+
+.headerSortDown:after{
+  border-bottom: 7px solid #19171B;
+  border-top: none transparent;
+  color: #19171B;
+}
+.headerSortUp:after{
+  border-top: 7px solid #19171B;
+  border-bottom: none transparent;
+  color: #19171B;
+}
+
 
 .contentrow{
   height: 69px;
