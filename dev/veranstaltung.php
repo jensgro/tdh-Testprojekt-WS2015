@@ -8,7 +8,9 @@
   );
 
   $sideincludes = array(
-	'leer.inc'
+	'donation-buttons.inc',
+	   'contact-person-deppisch.inc',
+        'contact-person-wolf.inc'
   );
 
   include 'inc/templates/template-artikel.inc';
