@@ -7,8 +7,8 @@
     Mit der Karte können sie feststellen, wer von uns wo aktiv ist.
   </div>
 
-  <table class="emptable tablesorter">
-    <thead class="headrow">
+  <table id="table" class="emptable tablesorter">
+    <thead>
       <th>
         Name
       </th>
@@ -29,6 +29,18 @@
         </td>
         <td>
           Mainz
+        </td>
+      </tr>
+
+      <tr class="contentrow">
+        <td class="namecol">
+          Gerhard, Fritz
+        </td>
+        <td>
+          06131/912288
+        </td>
+        <td>
+          Köln
         </td>
       </tr>
 
