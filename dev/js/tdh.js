@@ -2,8 +2,13 @@
 
 /* JS for accordion */
 $(".accordion .entry").on("click", function() {
-    $(".accordion .entry").removeClass("opened").attr("aria-hidden", "true");
-    $(this).addClass("opened").attr("aria-hidden", "false");
+    var alreadyOpened = $(this).hasClass("opened");
+
+    $(".accordion .opened").removeClass("opened").attr("aria-hidden", "true");
+    if(!(alreadyOpened)) {
+      $(this).addClass("opened").attr("aria-hidden", "false");
+    }
+
 });
 
 /* JS for table-sponsor */
