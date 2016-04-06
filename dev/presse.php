@@ -6,15 +6,19 @@
 	$pageheadline ="Presse";
 
 	$contentleftincludes = array(
-    'leer.inc',
+    'presse.inc',
+    'contact-person-deppisch.inc'
 	);
 
 	$contentrightincludes = array(
-    'leer.inc'
+    'about-us-teaser.inc',
+    'about-tdh-teaser.inc'
 	);
-  
+
 	$sideincludes = array(
-		'leer.inc'
+		'donation-buttons.inc',
+    'contact-person-deppisch.inc',
+    'contact-person-wolf.inc'
 	);
 
 	include 'inc/templates/template-2-1.inc';
