@@ -6,7 +6,7 @@
 
 	// leer.inc ist nur ein Platzhalter, der gelöscht werden muss.
 	$contentleftincludes = array(
-	   'leer.inc',
+	   'thanks.inc',
 	   'leer.inc'
 	);
 
@@ -16,8 +16,9 @@
 	);
 
   $sideincludes = array(
-	   'leer.inc',
-	   'leer.inc'
+	   'donation-button-1.inc',
+        'donation-button-2.inc',
+	   'contact-person.inc'
 	);
 
 	// Auf manchen Seiten wird dieses Array benötigt.
