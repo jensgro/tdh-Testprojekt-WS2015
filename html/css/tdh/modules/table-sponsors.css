@@ -1,65 +1,119 @@
 .table-style1 {
-    border-collapse: collapse;
-    width: 100%;
-    font-family: Arial, sans-serif;
-}
-.table-style1 td {
-    padding: 10px;
-    vertical-align: top;
-}
-.table-style1 td:first-child {
-    font-weight: bold;
-}
-.horizontal-list-item {
-    display: inline-block;
-}
-.horizontal-list-item p {
-    display: inline-block;
-}
-.horizontal-list-item .picture-content-box img {
-    height: 100px;
-    display: inline-block;
-}
-.middle-text {
-    vertical-align: text-bottom;
-}
-.underlined-table-row {
-    border-bottom: 1px solid black;
-}
-.table-head-style1 div {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-.table-head-style1 button {
-    border-width: 0;
-    background: transparent;
-    color: #990000;
-}
-.table-head-style1 button:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-.table-head-style1 select:first-child {
-    margin-right: 5px;
-}
-.table-head-style1 select:nth-child(2) {
-    margin-right: 15px;
-}
-.table-head-style1 p {
-    font-weight: bold;
-}
-.table-style1 a {
-    text-decoration: none;
-    color: #990000;
-}
-.table-style1 td {
-    position: relative;
-}
-.table-style1 p {
-    vertical-align: top;
-    margin: 0;
-}
-.table-style1 thead {
-    display: none;
-}
+            border-collapse: collapse;
+            width: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        .table-style1 td {
+            padding: 10px;
+            vertical-align: top;
+        }
+
+        .table-style1 td:first-child {
+            font-weight: bold;
+        }
+
+        .horizontal-list-item {
+            display: inline-block;
+        }
+
+        .picture-content-box p,
+        .horizontal-list-item p {
+            display: inline-block;
+        }
+
+        .picture-content-box img {
+            height: 100px;
+            display: inline-block;
+        }
+
+        .middle-text {
+            vertical-align: text-bottom;
+        }
+
+        .underlined-table-row {
+            border-bottom: 1px solid black;
+        }
+
+        .table-head-style1 div {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+
+        .table-head-style1 button {
+            border-width: 0;
+            background: transparent;
+            color: #990000;
+        }
+
+        .table-head-style1 button:hover {
+            cursor: pointer;
+        }
+
+        .table-head-style1 select:first-child {
+            margin-right: 5px;
+        }
+
+        .table-head-style1 select:nth-child(2) {
+            margin-right: 15px;
+        }
+
+        .table-head-style1 p {
+            font-weight: bold;
+        }
+
+        .table-style1 a {
+            text-decoration: none;
+            color: #990000;
+        }
+
+        .table-style1 td {
+            position: relative;
+        }
+
+        .table-style1 p {
+            vertical-align: top;
+            margin: 0;
+        }
+
+        .table-style1 thead {
+            display: none;
+        }
+
+        .table-style1 tr{
+          display: block;
+          transition: box-shadow 0.7s;
+        }
+        .table-style1 td{
+          display: inline-block;
+          width: 49%;
+        }
+
+        .table-style1 tr:hover{
+          box-shadow: 10px 12px 20px -4px rgba(31, 73, 125, 0.8);
+        }
+
+        .table-style1 a:after, .table-head-style1 button:after{
+          content: "";
+          display: block;
+          height: 2px;
+          width: 0px;
+          margin: auto;
+          background: transparent;
+          transition: width .5s ease, background-color .5s ease;
+        }
+        .table-head-style1 button:after{
+          height: 1px;
+        }
+        .table-style1 a:hover:after, .table-head-style1 button:hover:after{
+          width: 100%;
+          background: #990000;
+        }
+        
+        .table-head-style1 button, .table-style1 a{
+          position: relative;
+        }
+        .table-head-style1 button:active, .table-style1 a:active{
+          top:1px;
+        }

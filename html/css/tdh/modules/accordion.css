@@ -49,7 +49,7 @@
         display: inline-block;
         float: right;
         width: 0;
-        heigth: 0;
+        height: 0;
         border-left: 15px solid grey;
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent;
@@ -74,6 +74,7 @@
   .accordion .opened {
     border-top-width: 2px;
     border-bottom-width: 2px;
+    margin: 0;
   }
 
     .accordion .opened .details {

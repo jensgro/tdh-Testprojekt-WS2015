@@ -1,0 +1,18 @@
+.contact-person {
+	margin:  0 5px 20px 5px;
+}
+
+.contact-person img,
+.contact-person span {
+	display: block;
+}
+
+.contact h6 {
+	margin-bottom: 0;
+}
+
+.contact-person .name {
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 0;
+}
