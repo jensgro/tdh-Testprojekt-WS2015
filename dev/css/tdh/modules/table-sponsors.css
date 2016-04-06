@@ -48,7 +48,6 @@
         }
 
         .table-head-style1 button:hover {
-            text-decoration: underline;
             cursor: pointer;
         }
 
@@ -93,4 +92,21 @@
 
         .table-style1 tr:hover{
           box-shadow: 10px 12px 20px -4px rgba(31, 73, 125, 0.8);
+        }
+
+        .table-style1 a:after, .table-head-style1 button:after{
+          content: "";
+          display: block;
+          height: 2px;
+          width: 0px;
+          margin: auto;
+          background: transparent;
+          transition: width .5s ease, background-color .5s ease;
+        }
+        .table-head-style1 button:after{
+          height: 1px;
+        }
+        .table-style1 a:hover:after, .table-head-style1 button:hover:after{
+          width: 100%;
+          background: #990000;
         }
