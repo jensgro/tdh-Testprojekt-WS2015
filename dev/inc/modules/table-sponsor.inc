@@ -72,14 +72,6 @@
                 <td> Gernsbach-Scheuern</td>
             </tr>
             <tr class="underlined-table-row">
-                <td>
-                    <p class="name-link">
-                        <a href="#">Abacus P</a>
-                    </p>
-                </td>
-                <td> Cernsbach</td>
-            </tr>
-            <tr class="underlined-table-row">
                 <td class="horizontal-list-item">
                     <div class="picture-content-box">
                         <p class="name-link">
@@ -129,14 +121,6 @@
 
                 </td>
                 <td> Gernsbach-Scheuern</td>
-            </tr>
-            <tr class="underlined-table-row">
-                <td>
-                    <p class="name-link">
-                        <a href="#">Abacus P</a>
-                    </p>
-                </td>
-                <td> Cernsbach</td>
             </tr>
             <tr class="underlined-table-row">
                 <td class="horizontal-list-item">
