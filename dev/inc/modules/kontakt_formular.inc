@@ -33,12 +33,12 @@
                 <input class="form" id="email" name="email" placeholder="Ihre E-Mail Adresse" required>
             </div>
 
-            <div class="line clearfix">
+            <div class="message line clearfix">
                 <label for="message">
                     <h4>Ihre Nachricht*</h4>
                     <p>Hinterlassen Sie hier auch ihre Adresse oder Telefonnummer, wenn Sie möchten, dass wir telefonisch oder schriftlich mit Ihnen in Kontakt treten.</p>
                 </label>
-                <textarea id="message" name="message" placeholder="Ihre Nachricht an tdh Murgtal" required></textarea>
+                <textarea id="message" name="message" rows="9" placeholder="Ihre Nachricht an tdh Murgtal" required></textarea>
             </div>
             <div class="button">
                 <button type="submit">Nachricht senden</button>
