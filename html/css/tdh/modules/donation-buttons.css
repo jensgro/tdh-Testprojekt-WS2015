@@ -1,0 +1,57 @@
+
+.donation-button-1{
+    font-weight: bold;
+   
+    background-color: #19171B;
+    
+    position: absolute;
+    top:0;
+    
+    width: 183px;
+    height: 30px;
+    
+    margin-left: -4px;
+    
+    padding-right:2px;
+    
+    box-shadow: 0 2px 2px #19171B;
+}
+.donation-button-1 p{
+    display: inline-block;
+    color: white;
+    
+    padding-top:5px;
+}
+.donation-button-1 img{
+    position: relative;
+    left:-10px;
+    float:left;  
+
+}
+
+
+.donation-button-2{
+    font-weight: bold;
+    text-align: center;
+  
+    
+    
+}
+.donation-button-2 .white-box{
+    background-color: white;
+    width: 150px;
+}
+
+.donation-button-2 p{
+   color: black;
+    
+}
+.donation-button-2 span{
+    color:#AD1921;
+}
+.donation-button-2 img{
+    position: relative;
+    
+    float:left;  
+   
+}
