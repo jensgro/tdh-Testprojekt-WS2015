@@ -6,7 +6,7 @@
 	$pageheadline ="Sponsoren";
 
 	$contentleftincludes = array(
-    'leer.inc'
+    'table-sponsor.inc'
 	);
 
 	$contentrightincludes = array(
