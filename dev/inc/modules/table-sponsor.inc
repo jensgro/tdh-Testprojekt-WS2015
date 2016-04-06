@@ -62,14 +62,14 @@
             <tr class="underlined-table-row">
                 <td class="horizontal-list-item">
                     <div class="picture-content-box">
-                        <img src="picture3.jpg" alt="fresh ideas" />
+                        <img src="images/einzelnachhilfe.gif" alt="" />
                         <p class="name-link">
-                            <a href="#">Rikki</a>
+                            <a href="#">Abacus Nachhilfeinstitut</a>
                         </p>
                     </div>
 
                 </td>
-                <td> Gernsbach</td>
+                <td> Gernsbach-Scheuern</td>
             </tr>
             <tr class="underlined-table-row">
                 <td>
@@ -82,30 +82,101 @@
             <tr class="underlined-table-row">
                 <td class="horizontal-list-item">
                     <div class="picture-content-box">
-                        <img src="http://static.lolskill.net/img/skins/1215/rengar_0.jpg" alt="fresh ideas" />
                         <p class="name-link">
-                            <a href="#">Solo</a>
+                            <a href="#">ABAKUS Computer</a>
                         </p>
                     </div>
 
                 </td>
-                <td> Gernsbach</td>
+                <td> Kuppenheim</td>
             </tr>
             <tr class="underlined-table-row">
                 <td>
                     <p class="name-link">
-                        <a href="#">Ben Afflect</a>
+                        <a href="#">Adam Versicherungen</a>
                     </p>
                 </td>
-                <td> Atu</td>
+                <td> Bischweiler</td>
             </tr>
             <tr class="underlined-table-row">
                 <td>
                     <p class="name-link">
-                        <a href="#">Aladin</a>
+                        <a href="#">Adolph Präsente</a>
                     </p>
                 </td>
-                <td> Boco</td>
+                <td> Karlsruhe</td>
             </tr>
+            <tr class="underlined-table-row">
+                <td class="horizontal-list-item">
+                    <div class="picture-content-box">
+                        <img src="images/adler-apotheke.gif" alt="" />
+                        <p class="name-link">
+                            <a href="#">Adlern Apotheke</a>
+                        </p>
+                    </div>
+
+                </td>
+                <td> Kuppenheim</td>
+            </tr>
+            <tr class="underlined-table-row">
+                <td class="horizontal-list-item">
+                    <div class="picture-content-box">
+                        <img src="images/einzelnachhilfe.gif" alt="" />
+                        <p class="name-link">
+                            <a href="#">Abacus Nachhilfeinstitut</a>
+                        </p>
+                    </div>
+
+                </td>
+                <td> Gernsbach-Scheuern</td>
+            </tr>
+            <tr class="underlined-table-row">
+                <td>
+                    <p class="name-link">
+                        <a href="#">Abacus P</a>
+                    </p>
+                </td>
+                <td> Cernsbach</td>
+            </tr>
+            <tr class="underlined-table-row">
+                <td class="horizontal-list-item">
+                    <div class="picture-content-box">
+                        <p class="name-link">
+                            <a href="#">ABAKUS Computer</a>
+                        </p>
+                    </div>
+
+                </td>
+                <td> Kuppenheim</td>
+            </tr>
+            <tr class="underlined-table-row">
+                <td>
+                    <p class="name-link">
+                        <a href="#">Adam Versicherungen</a>
+                    </p>
+                </td>
+                <td> Bischweiler</td>
+            </tr>
+            <tr class="underlined-table-row">
+                <td>
+                    <p class="name-link">
+                        <a href="#">Adolph Präsente</a>
+                    </p>
+                </td>
+                <td> Karlsruhe</td>
+            </tr>
+            <tr class="underlined-table-row">
+                <td class="horizontal-list-item">
+                    <div class="picture-content-box">
+                        <img src="images/adler-apotheke.gif" alt="" />
+                        <p class="name-link">
+                            <a href="#">Adlern Apotheke</a>
+                        </p>
+                    </div>
+
+                </td>
+                <td> Kuppenheim</td>
+            </tr>
+
         </tbody>
     </table>
