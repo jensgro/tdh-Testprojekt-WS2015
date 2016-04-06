@@ -1,56 +1,81 @@
-.navigation{
-    margin-bottom:90px;
+.navigation {
+    margin-bottom: 90px;
 }
 
-.navigation ul{
+.navigation ul {
     list-style: none;
-    position:relative;
-
+    position: relative;
 }
 
-.navigation li{
-    display:inline-block;
-    margin-left:0;
-    margin-right:10px;
+.navigation li {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 10px;
 }
 
-.navigation a{
-    color:#6F6F6F;
-    font-weight:bold;
+.navigation a {
+    color: #6F6F6F;
+    font-weight: bold;
+    position: relative;
 }
 
-.active a{
-    color:#AD1921;
+.navigation a:hover {
+    text-decoration: none;
 }
 
-.navigation > ul > li:nth-child(4).active{
+.navigation a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: currentColor;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.navigation a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.active a {
+    color: #AD1921;
+}
+
+.navigation > ul > li:nth-child(4).active {
     padding: 0 5px;
-    border:1px solid black;
+    border: 1px solid black;
 }
 
-.navigation > ul > li:nth-child(4).active li{
+.navigation > ul > li:nth-child(4).active li {
     padding: 0 5px;
-    margin-right:5px;
+    margin-right: 5px;
 }
 
-
-.navigation > ul > li:nth-child(4).active li a{
-    color:#AD1921;
-    background-color:lightgrey;
-    padding:5px 10px;
+.navigation > ul > li:nth-child(4).active li a {
+    color: #AD1921;
+    background-color: lightgrey;
+    padding: 5px 10px;
 }
 
-.submenu{
-    position:absolute;
-    left:0;
-    top:120%;
-    width:100%;
-}
-.submenu a{
-    color:#19171B;
-    font-weight:bold;
+.submenu {
+    position: absolute;
+    left: 0;
+    top: 120%;
+    width: 100%;
 }
 
-.submenu .active a{
-    color:#AD1921;
+.submenu a {
+    color: #19171B;
+    font-weight: bold;
+}
+
+.submenu .active a {
+    color: #AD1921;
 }
