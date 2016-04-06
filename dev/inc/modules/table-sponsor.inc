@@ -60,7 +60,7 @@
         </thead>
         <tbody>
             <tr class="underlined-table-row">
-                <td class="horizontal-list-item">
+                <td>
                     <div class="picture-content-box">
                         <img src="images/einzelnachhilfe.gif" alt="" />
                         <p class="name-link">
@@ -72,7 +72,7 @@
                 <td> Gernsbach-Scheuern</td>
             </tr>
             <tr class="underlined-table-row">
-                <td class="horizontal-list-item">
+                <td>
                     <div class="picture-content-box">
                         <p class="name-link">
                             <a href="#">ABAKUS Computer</a>
@@ -99,7 +99,7 @@
                 <td> Karlsruhe</td>
             </tr>
             <tr class="underlined-table-row">
-                <td class="horizontal-list-item">
+                <td>
                     <div class="picture-content-box">
                         <img src="images/adler-apotheke.gif" alt="" />
                         <p class="name-link">
@@ -111,7 +111,7 @@
                 <td> Kuppenheim</td>
             </tr>
             <tr class="underlined-table-row">
-                <td class="horizontal-list-item">
+                <td>
                     <div class="picture-content-box">
                         <img src="images/einzelnachhilfe.gif" alt="" />
                         <p class="name-link">
@@ -123,7 +123,7 @@
                 <td> Gernsbach-Scheuern</td>
             </tr>
             <tr class="underlined-table-row">
-                <td class="horizontal-list-item">
+                <td>
                     <div class="picture-content-box">
                         <p class="name-link">
                             <a href="#">ABAKUS Computer</a>
@@ -150,7 +150,7 @@
                 <td> Karlsruhe</td>
             </tr>
             <tr class="underlined-table-row">
-                <td class="horizontal-list-item">
+                <td>
                     <div class="picture-content-box">
                         <img src="images/adler-apotheke.gif" alt="" />
                         <p class="name-link">
