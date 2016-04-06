@@ -1,6 +1,5 @@
-
 <ul class="accordion">
-  <li class="entry opened">
+  <li class="entry opened" id="entry1">
     <h3>Radbörse</h3>
     <div class="details">
       <p>Sie findet jährlich im Frühjahr im Radhaus Kastner in Kuppenheim statt. Als Tauschbörse rund ums Rad ist sie inzwischen ein fester Bestandteil unserer Aktivitäten in Kuppenheim. Sie wird von der Bevölkerung gerne genutzt, um gut gerüstet und sattelfest die ersten warmen Sonnenstrahlen während eines Radausflugs zu genießen.</p>
@@ -30,7 +29,7 @@
       </ol>
     </div>
   </li>
-  <li class="entry">
+  <li class="entry" id="entry2">
     <h3>Konzerte</h3>
     <div class="details">
       <p>Seit 2004 können wir für unsere Konzerte das Foyer des Neuen Rathauses in Kuppenheim nutzen. Im Gegensatz zu den früheren "Favorite-Konzerten" (beim Schloß Favorite nahe Rastatt) plagen uns dadurch keine Sorgen mehr mit dem Wettergott - im Gegenteil steht uns bei schönem Wetter zusätzlich der Vorplatz für "OpenAir"-Feeling zur Verfügung. Die hervorragende Resonanz auf unsere bisherigen Veranstaltungen im Neuen Rathaus zeigt, daß dieses neue Ambiente guten Anklang bei Künstlern und Zuhörern findet. Eine Übersicht über unsere "Rathaus-Konzerte" folgt in Kürze!</p>
@@ -53,13 +52,13 @@
       </ol>
     </div>
   </li>
-  <li class="entry">
+  <li class="entry" id="entry3">
     <h3>Kinderfest</h3>
     <div class="details">
       <p>Für viele Familien eine äußerst beliebte Veranstaltung, die meistens am ersten Wochenende nach den Sommerferien auf dem Gelände der Kuppenheimer Realschule stattfindet. Ponyreiten, Kistenstapeln, Schminkecke, Spielparcour, Kindertheater, Zauberer... die Kleinen fühlen sich an diesem Nachmittag bei uns pudelwohl. Ähnlich geht es den Eltern, denn sie können sich gemütlich mit Freunden und Bekannten unterhalten und wissen ihre Kleinen unter zuverlässiger Aufsicht. Eine entsprechende Auswahl an Getränken und Speisen, und da ist selbstverständlich auch immer etwas speziell für Kinder dabei, lässt Hunger oder Durst gleich gar nicht aufkommen. So verbringen alle 2 Jahre um die 2500 Besucher einen Nachmittag, bei dem Spiel, Spaß, Sport und Unterhaltung für Kinder im Mittelpunkt stehen.</p>
     </div>
   </li>
-  <li class="entry">
+  <li class="entry" id="entry4">
     <h3>Basar</h3>
     <div class="details">
       <p>Jedes zweite Jahr ist die Wörtelhalle in Kuppenheim gut gefüllt, wenn unsere Gruppe ein breitgefächertes Angebot aus den Bereichen Umweltschutz, Kunsthandwerk und Holzwaren präsentiert. Märchenlesungen und Basteln, Töpfern und Vieles mehr ist für die Kinder angesagt. Außerdem laden ausgezeichnetes Mittagessen, eine lange Kuchentheke und Waffeln zu längerem Verweilen ein.</p>
