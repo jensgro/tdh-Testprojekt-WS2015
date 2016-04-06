@@ -1,5 +1,4 @@
 .table-employee-wrapper{
-  margin-top: 70px;
   margin-bottom: 70px;
 }
 .emptable{
@@ -11,6 +10,7 @@
   border-bottom-style: solid;
   border-top-style: solid;
 }
+
 .header{
   padding: 10px 0;
   cursor: pointer;
