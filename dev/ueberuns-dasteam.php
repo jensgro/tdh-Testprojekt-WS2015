@@ -1,4 +1,4 @@
-﻿<?php
+<?php
   $pagetitle= "Das Team - terre des hommes Murgtal/Mittelbaden";
 
 	$navigation = "dasteam";
@@ -12,7 +12,9 @@
 	);
 
 	$sideincludes = array(
-		'leer.inc'
+		'donation-buttons.inc',
+	   'contact-person-deppisch.inc',
+        'contact-person-wolf.inc'
 	);
 
 	include 'inc/templates/template-1-2.inc';
