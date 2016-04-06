@@ -12,11 +12,13 @@ $(".accordion .entry").on("click", function() {
 });
 
 /* JS for table-sponsor */
-  $(document).ready(function() {
+   $(document).ready(function() {
             var key = $('.sort-attr1 option:selected').val();
             $(".table-style1 tbody tr").each(function() {
                 var textcontent = $(this).find("p:first").text();
-                if (textcontent.indexOf(key) < 0) {
+                var searchReg = "\\b"+key;
+                var re = new RegExp(searchReg);
+                if (!re.test(textcontent)) {
                     $(this).hide();
                 } else {
                     $(this).show();
@@ -28,7 +30,9 @@ $(".accordion .entry").on("click", function() {
                 var key = $('.sort-attr1 option:selected').val();
                 $(".table-style1 tbody tr").each(function() {
                     var textcontent = $(this).find("p:first").text();
-                    if (textcontent.indexOf(key) < 0) {
+                    var searchReg = "\\b"+key;
+                    var re = new RegExp(searchReg);
+                    if (!re.test(textcontent)) {
                         $(this).hide();
                     } else {
                         $(this).show();
