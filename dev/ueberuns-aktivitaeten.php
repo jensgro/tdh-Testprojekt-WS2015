@@ -6,11 +6,12 @@
 	$pageheadline ="Unsere Aktivitäten";
 
 	$contentleftincludes = array(
+    'aktivitaeten.inc',
     'accordion.inc'
 	);
 
 	$contentrightincludes = array(
-    'leer.inc'
+    'presented.inc'
 	);
 
 	$sideincludes = array(

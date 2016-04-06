@@ -1,12 +1,18 @@
 .content-widget {
   font-size: 12px;
-  border top
+  margin: 0 5%;
 }
 
-  .content-widget h4 {
+  .content-widget h3 {
     font-size: 12px;
     color: #6F6F6F;
     font-weight:bold;
+    margin: 0;
+  }
+
+  .content-widget h4 {
+    font-weight: bold;
+    font-size: 14px;
     margin: 0;
   }
 
@@ -16,6 +22,7 @@
 
   .content-widget img {
     display: block;
+    width: 100%;
   }
 
   .content-widget a {

@@ -11,6 +11,14 @@ $(".accordion .entry").on("click", function() {
 
 });
 
+$("p a").on("click", function() {
+    var entry = document.getElementById(((this).getAttribute('href')).replace('#',''));
+
+    $(".accordion .opened").removeClass("opened").attr("aria-hidden", "true");
+    $(entry).addClass("opened").attr("aria-hidden", "false");
+    $(entry).setFocus();
+});
+
 /* JS for table-sponsor */
    $(document).ready(function() {
             var key = $('.sort-attr1 option:selected').val();
