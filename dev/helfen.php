@@ -5,10 +5,10 @@
   $navigation = "helfen";
 
 	$contentleftincludes = array(
-	    'leer.inc'
+	    'helfen-content-left.inc'
 	);
 	$contentrightincludes = array(
-        'leer.inc'
+        'presented.inc'
 	);
 	$sideincludes = array(
 		'donation-buttons.inc',
