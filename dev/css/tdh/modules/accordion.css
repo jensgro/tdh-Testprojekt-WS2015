@@ -14,7 +14,6 @@
     .accordion ol li {
       margin: 10px 0px;
       padding: 0;
-
     }
 
       .accordion ol li h4 {
@@ -28,6 +27,7 @@
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
     margin: -1px 0;
+    padding: 10px 0;
   }
 
     .accordion .entry h3 {
@@ -35,11 +35,13 @@
       line-height: 1.8em;
       font-size: 14px;
       font-weight: bold;
-      padding-top: 5px;
+      margin: 0px;
+      transition: color .3s;
     }
 
     .accordion .opened h3 {
       color: #19171b;
+      transition: color .7s;
     }
 
       .accordion .entry h3:after {
@@ -52,7 +54,7 @@
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent;
         transform: rotate(0deg);
-        transition: transform .8s;
+        transition: transform .3s;
       }
 
         .accordion .entry:hover {
@@ -66,6 +68,7 @@
   .accordion .entry .details {
     max-height: 0px;
     overflow: hidden;
+    transition: max-height .3s;
   }
 
   .accordion .opened {
@@ -76,9 +79,10 @@
     .accordion .opened .details {
       display: block;
       max-height: 1000px;
-      transition: max-height .8s;
+      transition: max-height .7s;
     }
 
       .accordion .opened  h3:after{
         transform: rotate(90deg);
+        transition: transform .7s;
       }
