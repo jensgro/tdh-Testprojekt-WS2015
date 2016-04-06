@@ -110,3 +110,10 @@
           width: 100%;
           background: #990000;
         }
+        
+        .table-head-style1 button, .table-style1 a{
+          position: relative;
+        }
+        .table-head-style1 button:active, .table-style1 a:active{
+          top:1px;
+        }
