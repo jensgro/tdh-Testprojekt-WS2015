@@ -24,7 +24,7 @@
                 <!-- JG:
                     - Absatz ist hier die falsche Wahl, s.o.
                     - Das &-Zeihen muss maskiert werden, deshalb wird es von Ihrem Editor bestimmt markiert. Es sollte als &amp;  eingebunden werden. -->
-                <p>sicher & schnell
+                <p>sicher &amp; schnell
                     <span>online spenden</span>
                 </p>
             </div>

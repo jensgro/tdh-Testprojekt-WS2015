@@ -68,7 +68,7 @@
   .accordion .entry .details {
     max-height: 0px;
     overflow: hidden;
-    transition: max-height .3s;
+    transition: max-height .3s ease-out;
   }
 
   .accordion .opened {
@@ -80,7 +80,7 @@
     .accordion .opened .details {
       display: block;
       max-height: 1000px;
-      transition: max-height .7s;
+      transition: max-height .7s ease-out;
     }
 
       .accordion .opened  h3:after{
